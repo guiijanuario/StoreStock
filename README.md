@@ -1,4 +1,4 @@
-# :books: Store Stock  :books:
+# :department_store: Store Stock  :department_store:
 
 ---
 
