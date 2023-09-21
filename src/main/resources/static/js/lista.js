@@ -1,4 +1,3 @@
-// Esta função preenche a tabela com os produtos obtidos da API.
 function preencherTabelaProdutos(produtos) {
     const tabela = document.getElementById("produtoTableBody");
     tabela.innerHTML = "";
@@ -15,7 +14,6 @@ function preencherTabelaProdutos(produtos) {
     });
 }
 
-// Realize a requisição GET para obter a lista de produtos
 fetch('http://localhost:8080/api/produtos')
     .then(response => response.json())
     .then(data => {
